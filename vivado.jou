@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Apr 17 11:14:55 2022
+# Process ID: 12520
+# Current directory: G:/VC707/top_kfenps
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6656 G:\VC707\top_kfenps\top_kfenps.xpr
+# Log file: G:/VC707/top_kfenps/vivado.log
+# Journal file: G:/VC707/top_kfenps\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/VC707/top_kfenps/top_kfenps.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

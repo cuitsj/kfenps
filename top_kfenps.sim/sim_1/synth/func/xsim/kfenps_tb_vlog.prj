@@ -1,0 +1,8 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../top_kfenps.srcs/sources_1/ip/clk_wiz_0" \
+"kfenps_tb_func_synth.v" \
+"../../../../../top_kfenps.srcs/sources_1/new/kfenps.v" \
+"../../../../../top_kfenps.srcs/sim_1/new/kfenps_tb.v" \
+
+# Do not sort compile order
+nosort

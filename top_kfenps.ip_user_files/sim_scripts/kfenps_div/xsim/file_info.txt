@@ -1,0 +1,2 @@
+kfenps_div.vhd,vhdl,xil_defaultlib,../../../../top_kfenps.srcs/sources_1/ip/kfenps_div/sim/kfenps_div.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

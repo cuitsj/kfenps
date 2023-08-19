@@ -1,0 +1,132 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 17 11:38:29 2022
+| Host         : DESKTOP-A9E5TQ0 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_kfenps_control_sets_placed.rpt
+| Design       : top_kfenps
+| Device       : xc7vx485t
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    60 |
+| Unused register locations in slices containing registers |    59 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            2 |
+|      2 |            1 |
+|      4 |            2 |
+|      6 |            1 |
+|      8 |           13 |
+|     10 |            1 |
+|     12 |            1 |
+|     15 |            2 |
+|    16+ |           37 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              65 |           38 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |           10439 |         1870 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             805 |          202 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------+-----------------------------------------------+--------------------------------------------------------------------+------------------+----------------+
+|        Clock Signal        |                 Enable Signal                 |                          Set/Reset Signal                          | Slice Load Count | Bel Load Count |
++----------------------------+-----------------------------------------------+--------------------------------------------------------------------+------------------+----------------+
+|  clk_wiz_0_i/inst/clk_out1 | key_launch_i/state                            | tx_process_i/sys_rst_n                                             |                1 |              1 |
+|  clk_wiz_0_i/inst/clk_out2 | u_uart_tx/tx_pin_i_1_n_0                      | u_uart_tx/clk_cnt[15]_i_1__0_n_0                                   |                1 |              1 |
+|  clk_wiz_0_i/inst/clk_out1 |                                               |                                                                    |                2 |              2 |
+|  clk_wiz_0_i/inst/clk_out2 | u_uart_rx/rx_cnt                              | key_launch_i/rx_flag_reg                                           |                1 |              4 |
+|  clk_wiz_0_i/inst/clk_out2 | u_uart_tx/tx_cnt                              | u_uart_tx/clk_cnt[15]_i_1__0_n_0                                   |                1 |              4 |
+|  clk_wiz_0_i/inst/clk_out1 |                                               | tx_process_i/sys_rst_n                                             |                3 |              6 |
+|  clk_wiz_0_i/inst/clk_out2 | rx_process_i/IR5_BUFF[15]_i_1__0_n_0          | key_launch_i/launch_flag_reg_0                                     |                1 |              8 |
+|  clk_wiz_0_i/inst/clk_out2 | rx_process_i/IR0_BUFF[15]_i_1__0_n_0          | key_launch_i/launch_flag_reg_0                                     |                1 |              8 |
+|  clk_wiz_0_i/inst/clk_out2 | rx_process_i/IR5_BUFF[7]_i_1__0_n_0           | key_launch_i/launch_flag_reg_0                                     |                2 |              8 |
+|  clk_wiz_0_i/inst/clk_out2 | rx_process_i/IR0_BUFF[7]_i_1__0_n_0           | key_launch_i/launch_flag_reg_0                                     |                1 |              8 |
+|  clk_wiz_0_i/inst/clk_out2 | rx_process_i/IR2_BUFF[7]_i_1__0_n_0           | key_launch_i/launch_flag_reg_0                                     |                2 |              8 |
+|  clk_wiz_0_i/inst/clk_out2 | rx_process_i/IR2_BUFF[15]_i_1__0_n_0          | key_launch_i/launch_flag_reg_0                                     |                1 |              8 |
+|  clk_wiz_0_i/inst/clk_out2 | rx_process_i/IR1_BUFF[15]_i_1__0_n_0          | key_launch_i/launch_flag_reg_0                                     |                2 |              8 |
+|  clk_wiz_0_i/inst/clk_out2 | rx_process_i/IR1_BUFF[7]_i_1__0_n_0           | key_launch_i/launch_flag_reg_0                                     |                2 |              8 |
+|  clk_wiz_0_i/inst/clk_out2 |                                               | u_uart_rx/rx_data[7]_i_1_n_0                                       |                3 |              8 |
+|  clk_wiz_0_i/inst/clk_out2 | rx_process_i/IR6_BUFF[15]_i_1__0_n_0          | key_launch_i/launch_flag_reg_0                                     |                1 |              8 |
+|  clk_wiz_0_i/inst/clk_out2 |                                               | u_uart_tx/SR[0]                                                    |                3 |              8 |
+|  clk_wiz_0_i/inst/clk_out2 | rx_process_i/IR7_BUFF[7]_i_1__0_n_0           | key_launch_i/launch_flag_reg_0                                     |                1 |              8 |
+|  clk_wiz_0_i/inst/clk_out2 | rx_process_i/IR6_BUFF[7]_i_1__0_n_0           | key_launch_i/launch_flag_reg_0                                     |                2 |              8 |
+|  clk_wiz_0_i/inst/clk_out2 | u_uart_tx/tx_flag_i_2_n_0                     | tx_process_i/sys_rst_n                                             |                2 |             10 |
+|  clk_wiz_0_i/inst/clk_out2 | rx_process_i/rxprocess_flag                   | key_launch_i/launch_flag_reg_0                                     |                6 |             12 |
+|  clk_wiz_0_i/inst/clk_out2 | kfenps_i/leftspeed[15]_i_1_n_0                | key_launch_i/launch_flag_reg_0                                     |                5 |             15 |
+|  clk_wiz_0_i/inst/clk_out2 | kfenps_i/rightspeed[15]_i_1_n_0               | key_launch_i/launch_flag_reg_0                                     |                5 |             15 |
+|  clk_wiz_0_i/inst/clk_out2 | kfenps_i/Pt_last7                             | key_launch_i/launch_flag_reg_0                                     |                5 |             16 |
+|  clk_wiz_0_i/inst/clk_out2 | kfenps_i/IR0_KF                               | key_launch_i/launch_flag_reg_0                                     |                4 |             16 |
+|  clk_wiz_0_i/inst/clk_out1 | flash_led_i/led_buff0                         | tx_process_i/sys_rst_n                                             |                5 |             16 |
+|  clk_wiz_0_i/inst/clk_out2 |                                               | u_uart_tx/clk_cnt[15]_i_1__0_n_0                                   |                3 |             16 |
+|  clk_wiz_0_i/inst/clk_out2 | kfenps_i/Pt_last1                             | key_launch_i/launch_flag_reg_0                                     |                5 |             16 |
+|  clk_wiz_0_i/inst/clk_out2 | kfenps_i/Pt_last2                             | key_launch_i/launch_flag_reg_0                                     |                3 |             16 |
+|  clk_wiz_0_i/inst/clk_out2 | kfenps_i/Pt_last6                             | key_launch_i/launch_flag_reg_0                                     |                5 |             16 |
+|  clk_wiz_0_i/inst/clk_out2 | kfenps_i/Pt_last5                             | key_launch_i/launch_flag_reg_0                                     |                4 |             16 |
+|  clk_wiz_0_i/inst/clk_out2 | kfenps_i/Pt_last0                             | key_launch_i/launch_flag_reg_0                                     |                5 |             16 |
+|  clk_wiz_0_i/inst/clk_out2 | kfenps_i/IR7_KF                               | key_launch_i/launch_flag_reg_0                                     |                4 |             16 |
+|  clk_wiz_0_i/inst/clk_out2 | kfenps_i/IR5_KF                               | key_launch_i/launch_flag_reg_0                                     |                4 |             16 |
+|  clk_wiz_0_i/inst/clk_out2 | kfenps_i/IR6_KF                               | key_launch_i/launch_flag_reg_0                                     |                4 |             16 |
+|  clk_wiz_0_i/inst/clk_out2 | kfenps_i/IR2_KF                               | key_launch_i/launch_flag_reg_0                                     |                4 |             16 |
+|  clk_wiz_0_i/inst/clk_out2 | kfenps_i/IR1_KF                               | key_launch_i/launch_flag_reg_0                                     |                4 |             16 |
+|  clk_wiz_0_i/inst/clk_out1 |                                               | key_launch_i/cnt[20]_i_1_n_0                                       |                5 |             20 |
+|  clk_wiz_0_i/inst/clk_out2 |                                               | key_launch_i/launch_flag_reg_0                                     |                7 |             20 |
+|  clk_wiz_0_i/inst/clk_out2 |                                               | key_launch_i/rx_flag_reg                                           |                6 |             24 |
+|  clk_wiz_0_i/inst/clk_out2 | tx_process_i/leftspeed_buff[15]_i_1_n_0       | tx_process_i/sys_rst_n                                             |                6 |             31 |
+|  clk_wiz_0_i/inst/clk_out1 |                                               | key_launch_i/clear                                                 |                8 |             32 |
+|  clk_wiz_0_i/inst/clk_out1 | flash_led_i/cnt_3s                            | flash_led_i/cnt_3s[0]_i_1_n_0                                      |                8 |             32 |
+|  clk_wiz_0_i/inst/clk_out1 |                                               | key_launch_i/stop_flash_reg[0]                                     |               13 |             33 |
+|  clk_wiz_0_i/inst/clk_out2 | rx_process_i/FSM_onehot_data_cnt_reg_n_0_[11] | key_launch_i/SR[0]                                                 |               28 |             96 |
+|  clk_wiz_0_i/inst/clk_out2 | kfenps_i/IR7_BUFF                             | key_launch_i/launch_flag_reg_0                                     |               19 |             96 |
+|  clk_wiz_0_i/inst/clk_out2 |                                               |                                                                    |               36 |             99 |
+|  clk_wiz_0_i/inst/clk_out2 | kfenps_i/dout_int1                            | key_launch_i/launch_flag_reg_0                                     |               47 |            192 |
+|  clk_wiz_0_i/inst/clk_out2 |                                               | kfenps_i/kfenps_div5/U0/i_synth/i_has_aresetn.i_reg_reset/first_q  |              150 |            856 |
+|  clk_wiz_0_i/inst/clk_out2 |                                               | kfenps_i/kfenps_div4/U0/i_synth/i_has_aresetn.i_reg_reset/first_q  |              138 |            856 |
+|  clk_wiz_0_i/inst/clk_out2 |                                               | kfenps_i/kfenps_div3/U0/i_synth/i_has_aresetn.i_reg_reset/first_q  |              140 |            856 |
+|  clk_wiz_0_i/inst/clk_out2 |                                               | kfenps_i/kfenps_div2/U0/i_synth/i_has_aresetn.i_reg_reset/first_q  |              176 |            856 |
+|  clk_wiz_0_i/inst/clk_out2 |                                               | kfenps_i/kfenps_div12/U0/i_synth/i_has_aresetn.i_reg_reset/first_q |              148 |            856 |
+|  clk_wiz_0_i/inst/clk_out2 |                                               | kfenps_i/kfenps_div11/U0/i_synth/i_has_aresetn.i_reg_reset/first_q |              165 |            856 |
+|  clk_wiz_0_i/inst/clk_out2 |                                               | kfenps_i/kfenps_div8/U0/i_synth/i_has_aresetn.i_reg_reset/first_q  |              141 |            856 |
+|  clk_wiz_0_i/inst/clk_out2 |                                               | kfenps_i/kfenps_div10/U0/i_synth/i_has_aresetn.i_reg_reset/first_q |              154 |            856 |
+|  clk_wiz_0_i/inst/clk_out2 |                                               | kfenps_i/kfenps_div9/U0/i_synth/i_has_aresetn.i_reg_reset/first_q  |              139 |            856 |
+|  clk_wiz_0_i/inst/clk_out2 |                                               | kfenps_i/kfenps_div7/U0/i_synth/i_has_aresetn.i_reg_reset/first_q  |              157 |            856 |
+|  clk_wiz_0_i/inst/clk_out2 |                                               | kfenps_i/kfenps_div6/U0/i_synth/i_has_aresetn.i_reg_reset/first_q  |              167 |            856 |
+|  clk_wiz_0_i/inst/clk_out2 |                                               | kfenps_i/kfenps_div1/U0/i_synth/i_has_aresetn.i_reg_reset/first_q  |              144 |            856 |
++----------------------------+-----------------------------------------------+--------------------------------------------------------------------+------------------+----------------+
+
+

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="kfenps_tb_func_synth.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="kfenps_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2186000001fs"></ZoomEndTime>
+      <Cursor1Time time="1220000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="312"></NameColumnWidth>
+      <ValueColumnWidth column_width="189"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="34" />
+   <wave_markers>
+      <marker time="200000000" label="" />
+      <marker time="1220000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/kfenps_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/enps_en" type="logic">
+      <obj_property name="ElementShortName">enps_en</obj_property>
+      <obj_property name="ObjectShortName">enps_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/IR0" type="array">
+      <obj_property name="ElementShortName">IR0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IR0[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/IR1" type="array">
+      <obj_property name="ElementShortName">IR1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IR1[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/IR2" type="array">
+      <obj_property name="ElementShortName">IR2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IR2[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/IR5" type="array">
+      <obj_property name="ElementShortName">IR5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IR5[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/IR6" type="array">
+      <obj_property name="ElementShortName">IR6[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IR6[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/IR7" type="array">
+      <obj_property name="ElementShortName">IR7[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IR7[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/launch_flag" type="logic">
+      <obj_property name="ElementShortName">launch_flag</obj_property>
+      <obj_property name="ObjectShortName">launch_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/leftspeed" type="array">
+      <obj_property name="ElementShortName">leftspeed[15:0]</obj_property>
+      <obj_property name="ObjectShortName">leftspeed[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/rightspeed" type="array">
+      <obj_property name="ElementShortName">rightspeed[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rightspeed[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/enps_done" type="logic">
+      <obj_property name="ElementShortName">enps_done</obj_property>
+      <obj_property name="ObjectShortName">enps_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/PERIOD" type="array">
+      <obj_property name="ElementShortName">PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PERIOD[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/Q" type="array">
+      <obj_property name="ElementShortName">Q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/R" type="array">
+      <obj_property name="ElementShortName">R[31:0]</obj_property>
+      <obj_property name="ObjectShortName">R[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/u_kfenps/kfenps_div2/m_axis_dout_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_dout_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_dout_tdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/u_kfenps/kfenps_div2/m_axis_dout_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_dout_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_dout_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/u_kfenps/kfenps_div2/s_axis_dividend_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_dividend_tdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_dividend_tdata[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/u_kfenps/kfenps_div2/s_axis_dividend_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_dividend_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_dividend_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/u_kfenps/kfenps_div2/s_axis_divisor_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_divisor_tdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_divisor_tdata[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/u_kfenps/kfenps_div2/s_axis_divisor_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_divisor_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_divisor_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/u_kfenps/kfenps_div1/m_axis_dout_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_dout_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_dout_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/u_kfenps/kfenps_div1/m_axis_dout_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_dout_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_dout_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/u_kfenps/kfenps_div1/s_axis_dividend_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_dividend_tdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_dividend_tdata[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/u_kfenps/kfenps_div1/s_axis_dividend_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_dividend_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_dividend_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/u_kfenps/kfenps_div1/s_axis_divisor_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_divisor_tdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_divisor_tdata[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/u_kfenps/kfenps_div1/s_axis_divisor_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_divisor_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_divisor_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/u_kfenps/kfenps_div2/m_axis_dout_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_dout_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_dout_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/u_kfenps/kfenps_div2/m_axis_dout_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_dout_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_dout_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/u_kfenps/kfenps_div2/s_axis_dividend_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_dividend_tdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_dividend_tdata[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/u_kfenps/kfenps_div2/s_axis_dividend_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_dividend_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_dividend_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/u_kfenps/kfenps_div2/s_axis_divisor_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_divisor_tdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_divisor_tdata[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kfenps_tb/u_kfenps/kfenps_div2/s_axis_divisor_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_divisor_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_divisor_tvalid</obj_property>
+   </wvobject>
+</wave_config>

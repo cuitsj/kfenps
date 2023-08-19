@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Apr 17 11:14:55 2022
+# Process ID: 12520
+# Current directory: G:/VC707/top_kfenps
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6656 G:\VC707\top_kfenps\top_kfenps.xpr
+# Log file: G:/VC707/top_kfenps/vivado.log
+# Journal file: G:/VC707/top_kfenps\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/VC707/top_kfenps/top_kfenps.xpr
+INFO: [Project 1-313] Project file moved from 'G:/VC707/top_kfenps/top_kfenps' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 786.121 ; gain = 187.422
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Apr 17 11:35:08 2022] Launched synth_1...
+Run output will be captured here: G:/VC707/top_kfenps/top_kfenps.runs/synth_1/runme.log
+[Sun Apr 17 11:35:08 2022] Launched impl_1...
+Run output will be captured here: G:/VC707/top_kfenps/top_kfenps.runs/impl_1/runme.log

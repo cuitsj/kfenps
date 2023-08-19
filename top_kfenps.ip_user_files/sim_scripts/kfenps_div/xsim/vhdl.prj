@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../top_kfenps.srcs/sources_1/ip/kfenps_div/sim/kfenps_div.vhd" \
+
+nosort

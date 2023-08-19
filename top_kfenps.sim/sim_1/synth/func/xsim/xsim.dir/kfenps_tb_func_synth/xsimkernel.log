@@ -1,0 +1,7 @@
+Running: xsim.dir/kfenps_tb_func_synth/xsimk.exe -simmode gui -wdb kfenps_tb_func_synth.wdb -simrunnum 0 -socket 7858
+Design successfully loaded
+Design Loading Memory Usage: 76452 KB (Peak: 76452 KB)
+Design Loading CPU Usage: 296 ms
+Simulation completed
+Simulation Memory Usage: 91932 KB (Peak: 91932 KB)
+Simulation CPU Usage: 2671 ms

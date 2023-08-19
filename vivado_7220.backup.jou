@@ -1,0 +1,526 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Apr 16 16:42:11 2022
+# Process ID: 7220
+# Current directory: G:/VC707/top_kfenps/top_kfenps
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12228 G:\VC707\top_kfenps\top_kfenps\top_kfenps.xpr
+# Log file: G:/VC707/top_kfenps/top_kfenps/vivado.log
+# Journal file: G:/VC707/top_kfenps/top_kfenps\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/VC707/top_kfenps/top_kfenps/top_kfenps.xpr
+update_compile_order -fileset sources_1
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 5 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 5 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 5 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 5 us
+current_wave_config {kfenps_tb_func_synth.wcfg}
+add_wave {{/kfenps_tb/u_kfenps/finish_div1}} {{/kfenps_tb/u_kfenps/finish_div2}} 
+restart
+run 5 us
+restart
+run 5 us
+run 5 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+save_wave_config {G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg}
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 5 us
+current_wave_config {kfenps_tb_func_synth.wcfg}
+add_wave {{/kfenps_tb/u_kfenps/div_start2}} 
+restart
+run 5 us
+restart
+run 5 us
+run 5 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+save_wave_config {G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg}
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 5 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+close_sim
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+current_wave_config {kfenps_tb_func_synth.wcfg}
+add_wave {{/kfenps_tb/u_kfenps/div_start2}} 
+restart
+run 1 us
+run 1 us
+restart
+run 1 us
+run 1 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+current_wave_config {kfenps_tb_func_synth.wcfg}
+add_wave {{/kfenps_tb/u_kfenps/div_start}} 
+restart
+run 1 us
+run 1 us
+restart
+run 1 us
+run 1 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+save_wave_config {G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg}
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+run 1 us
+close_sim
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+run 1 us
+run 1 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+run 1 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+current_wave_config {kfenps_tb_func_synth.wcfg}
+add_wave {{/kfenps_tb/u_kfenps/\div_start_reg_n_0_[0] }} 
+current_wave_config {kfenps_tb_func_synth.wcfg}
+add_wave {{/kfenps_tb/u_kfenps/\div_start[0]_i_1_n_0 }} 
+restart
+run 1 us
+run 1 us
+restart
+run 1 us
+run 1 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+save_wave_config {G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg}
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+current_wave_config {kfenps_tb_func_synth.wcfg}
+add_wave {{/kfenps_tb/u_kfenps/div_start_reg_n_0}} 
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+save_wave_config {G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg}
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+close_sim
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+run 1 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+save_wave_config {G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg}
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+close_sim
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+restart
+run 1 us
+run 1 us
+close_sim
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+close_sim
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+run 1 us
+add_files -norecurse {G:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/sources_1/new/key_launch.v G:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/sources_1/new/tx_process.v G:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/sources_1/new/top_kfenps.v G:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/sources_1/new/uart_tx.v G:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/sources_1/new/flash_led.v G:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/sources_1/new/rx_process.v G:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/sources_1/new/uart_rx.v}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top_kfenps [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+create_ip -name clk_wiz -vendor xilinx.com -library ip -version 6.0 -module_name clk_wiz_0 -dir g:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/sources_1/ip
+set_property -dict [list CONFIG.PRIMITIVE {PLL} CONFIG.PRIM_IN_FREQ {200.0} CONFIG.CLKOUT2_USED {true} CONFIG.CLKOUT3_USED {true} CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {200} CONFIG.CLKOUT3_REQUESTED_OUT_FREQ {50} CONFIG.CLKIN1_JITTER_PS {50.0} CONFIG.CLKOUT1_DRIVES {BUFG} CONFIG.CLKOUT2_DRIVES {BUFG} CONFIG.CLKOUT3_DRIVES {BUFG} CONFIG.CLKOUT4_DRIVES {BUFG} CONFIG.CLKOUT5_DRIVES {BUFG} CONFIG.CLKOUT6_DRIVES {BUFG} CONFIG.CLKOUT7_DRIVES {BUFG} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKFBOUT_MULT_F {5} CONFIG.MMCM_CLKIN1_PERIOD {5.000} CONFIG.MMCM_CLKIN2_PERIOD {10.0} CONFIG.MMCM_COMPENSATION {ZHOLD} CONFIG.MMCM_CLKOUT0_DIVIDE_F {5} CONFIG.MMCM_CLKOUT1_DIVIDE {10} CONFIG.MMCM_CLKOUT2_DIVIDE {20} CONFIG.NUM_OUT_CLKS {3} CONFIG.CLKOUT1_JITTER {98.146} CONFIG.CLKOUT1_PHASE_ERROR {89.971} CONFIG.CLKOUT2_JITTER {112.316} CONFIG.CLKOUT2_PHASE_ERROR {89.971} CONFIG.CLKOUT3_JITTER {129.198} CONFIG.CLKOUT3_PHASE_ERROR {89.971}] [get_ips clk_wiz_0]
+generate_target {instantiation_template} [get_files g:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+generate_target all [get_files  g:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+catch { config_ip_cache -export [get_ips -all clk_wiz_0] }
+export_ip_user_files -of_objects [get_files g:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] g:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+launch_runs -jobs 4 clk_wiz_0_synth_1
+export_simulation -of_objects [get_files g:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -directory G:/VC707/top_kfenps/top_kfenps/top_kfenps.ip_user_files/sim_scripts -ip_user_files_dir G:/VC707/top_kfenps/top_kfenps/top_kfenps.ip_user_files -ipstatic_source_dir G:/VC707/top_kfenps/top_kfenps/top_kfenps.ip_user_files/ipstatic -lib_map_path [list {modelsim=G:/VC707/top_kfenps/top_kfenps/top_kfenps.cache/compile_simlib/modelsim} {questa=G:/VC707/top_kfenps/top_kfenps/top_kfenps.cache/compile_simlib/questa} {riviera=G:/VC707/top_kfenps/top_kfenps/top_kfenps.cache/compile_simlib/riviera} {activehdl=G:/VC707/top_kfenps/top_kfenps/top_kfenps.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run impl_1
+place_ports uart_rx BB21
+place_ports uart_tx BA21
+place_ports sys_rst_n AW40
+place_ports sys_clk_p E19
+place_ports key_launch AP40
+place_ports {led[0]} AM39
+place_ports {led[1]} AN39
+place_ports {led[2]} AR37
+place_ports {led[3]} AT37
+place_ports {led[4]} AR35
+place_ports {led[5]} AP41
+place_ports {led[6]} AP42
+place_ports {led[7]} AU39
+place_ports uart_rx AU33
+place_ports uart_tx AU36
+set_property IOSTANDARD LVDS [get_ports [list sys_clk_p]]
+set_property IOSTANDARD LVCMOS18 [get_ports [list {led[7]} {led[6]} {led[5]} {led[4]} {led[3]} {led[2]} {led[1]} {led[0]}]]
+set_property IOSTANDARD LVCMOS18 [get_ports [list key_launch]]
+set_property IOSTANDARD LVCMOS18 [get_ports [list sys_rst_n]]
+set_property IOSTANDARD LVCMOS18 [get_ports [list uart_rx]]
+set_property IOSTANDARD LVCMOS18 [get_ports [list uart_tx]]
+file mkdir G:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/constrs_1/new
+close [ open G:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/constrs_1/new/kfenps_pinplan.xdc w ]
+add_files -fileset constrs_1 G:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/constrs_1/new/kfenps_pinplan.xdc
+set_property target_constrs_file G:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/constrs_1/new/kfenps_pinplan.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {G:/VC707/top_kfenps/top_kfenps/top_kfenps.runs/impl_1/top_kfenps.bit} [get_hw_devices xc7vx485t_0]
+current_hw_device [get_hw_devices xc7vx485t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7vx485t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7vx485t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7vx485t_0]
+set_property PROGRAM.FILE {G:/VC707/top_kfenps/top_kfenps/top_kfenps.runs/impl_1/top_kfenps.bit} [get_hw_devices xc7vx485t_0]
+program_hw_devices [get_hw_devices xc7vx485t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx485t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+current_design synth_1
+report_ip_status -name ip_status 
+synth_design -rtl -name rtl_1
+write_schematic -format pdf -orientation portrait G:/VC707/top_kfenps/top_kfenps/top_kfenps.runs/impl_1/schematic.pdf
+set_property PROBES.FILE {} [get_hw_devices xc7vx485t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7vx485t_0]
+set_property PROGRAM.FILE {G:/VC707/top_kfenps/top_kfenps/top_kfenps.runs/impl_1/top_kfenps.bit} [get_hw_devices xc7vx485t_0]
+program_hw_devices [get_hw_devices xc7vx485t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx485t_0] 0]
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210249A14E25}
+close_sim
+current_design synth_1
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+run 1 us
+current_design impl_1
+close_design
+launch_simulation -mode post-implementation -type timing
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+add_bp {G:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/sources_1/new/kfenps.v} 119
+remove_bps -file {G:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/sources_1/new/kfenps.v} -line 119
+add_bp {G:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/sources_1/new/kfenps.v} 191
+remove_bps -file {G:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/sources_1/new/kfenps.v} -line 191
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+save_wave_config {G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg}
+current_sim simulation_31
+close_sim
+current_design synth_1
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+run 1 us
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {G:/VC707/top_kfenps/top_kfenps/top_kfenps.runs/impl_1/top_kfenps.bit} [get_hw_devices xc7vx485t_0]
+current_hw_device [get_hw_devices xc7vx485t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7vx485t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7vx485t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7vx485t_0]
+set_property PROGRAM.FILE {G:/VC707/top_kfenps/top_kfenps/top_kfenps.runs/impl_1/top_kfenps.bit} [get_hw_devices xc7vx485t_0]
+program_hw_devices [get_hw_devices xc7vx485t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx485t_0] 0]
+set_property -dict [list CONFIG.divide_by_zero_detect {false} CONFIG.ACLKEN {false} CONFIG.ARESETN {true}] [get_ips kfenps_div]
+generate_target all [get_files  G:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/sources_1/ip/kfenps_div/kfenps_div.xci]
+catch { config_ip_cache -export [get_ips -all kfenps_div] }
+export_ip_user_files -of_objects [get_files G:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/sources_1/ip/kfenps_div/kfenps_div.xci] -no_script -sync -force -quiet
+reset_run kfenps_div_synth_1
+launch_runs -jobs 4 kfenps_div_synth_1
+export_simulation -of_objects [get_files G:/VC707/top_kfenps/top_kfenps/top_kfenps.srcs/sources_1/ip/kfenps_div/kfenps_div.xci] -directory G:/VC707/top_kfenps/top_kfenps/top_kfenps.ip_user_files/sim_scripts -ip_user_files_dir G:/VC707/top_kfenps/top_kfenps/top_kfenps.ip_user_files -ipstatic_source_dir G:/VC707/top_kfenps/top_kfenps/top_kfenps.ip_user_files/ipstatic -lib_map_path [list {modelsim=G:/VC707/top_kfenps/top_kfenps/top_kfenps.cache/compile_simlib/modelsim} {questa=G:/VC707/top_kfenps/top_kfenps/top_kfenps.cache/compile_simlib/questa} {riviera=G:/VC707/top_kfenps/top_kfenps/top_kfenps.cache/compile_simlib/riviera} {activehdl=G:/VC707/top_kfenps/top_kfenps/top_kfenps.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+close_sim
+launch_simulation -mode post-synthesis -type functional
+open_wave_config G:/VC707/top_kfenps/top_kfenps/kfenps_tb_func_synth.wcfg
+source kfenps_tb.tcl
+run 1 us
+run 1 us
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7vx485t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7vx485t_0]
+set_property PROGRAM.FILE {G:/VC707/top_kfenps/top_kfenps/top_kfenps.runs/impl_1/top_kfenps.bit} [get_hw_devices xc7vx485t_0]
+program_hw_devices [get_hw_devices xc7vx485t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx485t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7vx485t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7vx485t_0]
+set_property PROGRAM.FILE {G:/VC707/top_kfenps/top_kfenps/top_kfenps.runs/impl_1/top_kfenps.bit} [get_hw_devices xc7vx485t_0]
+program_hw_devices [get_hw_devices xc7vx485t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx485t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7vx485t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7vx485t_0]
+set_property PROGRAM.FILE {G:/VC707/top_kfenps/top_kfenps/top_kfenps.runs/impl_1/top_kfenps.bit} [get_hw_devices xc7vx485t_0]
+program_hw_devices [get_hw_devices xc7vx485t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx485t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7vx485t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7vx485t_0]
+set_property PROGRAM.FILE {G:/VC707/top_kfenps/top_kfenps/top_kfenps.runs/impl_1/top_kfenps.bit} [get_hw_devices xc7vx485t_0]
+program_hw_devices [get_hw_devices xc7vx485t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx485t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7vx485t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7vx485t_0]
+set_property PROGRAM.FILE {G:/VC707/top_kfenps/top_kfenps/top_kfenps.runs/impl_1/top_kfenps.bit} [get_hw_devices xc7vx485t_0]
+program_hw_devices [get_hw_devices xc7vx485t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx485t_0] 0]
+close_sim
+close_sim

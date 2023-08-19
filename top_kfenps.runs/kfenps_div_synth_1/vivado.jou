@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Apr 16 22:23:49 2022
+# Process ID: 11992
+# Current directory: G:/VC707/top_kfenps/top_kfenps/top_kfenps.runs/kfenps_div_synth_1
+# Command line: vivado.exe -log kfenps_div.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source kfenps_div.tcl
+# Log file: G:/VC707/top_kfenps/top_kfenps/top_kfenps.runs/kfenps_div_synth_1/kfenps_div.vds
+# Journal file: G:/VC707/top_kfenps/top_kfenps/top_kfenps.runs/kfenps_div_synth_1\vivado.jou
+#-----------------------------------------------------------
+source kfenps_div.tcl -notrace
